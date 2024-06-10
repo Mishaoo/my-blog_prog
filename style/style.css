@@ -1,0 +1,156 @@
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfffe1;
+}
+
+
+header {
+    background-color: #ff934b;
+    color: #292929;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;   
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul li {
+
+    margin: 25px auto;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    border-radius: 20px;
+    background-color: #fb6d00;
+    padding: 20px 30px;
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+nav ul li a:hover
+{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    letter-spacing: 3px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.block {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #ffcb87;
+}
+
+.block h2 {
+    color: #191818;
+}
+
+.block p {
+    color: #1b1919;
+    font-size: 20px;
+    transition: all .3s;
+}
+
+.block ul
+{
+    list-style-type: none;   
+}
+
+
+.blockHumor p:hover
+{
+    cursor: default;
+    transform: scale(1.03);
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+    width: 20%;
+    box-shadow: 5px 5px rgb(61, 41, 66);
+    border-radius: 20px;
+}
+
+
+.blockTop img
+{
+    width: 250px;
+}
+
+.block_artist
+{
+    margin:0 25px;
+    text-align: center;
+    display: inline-block;    
+}
+
+.blockHealth img
+{
+    width: 50%;
+}
+
+.blockHealth p
+{
+    cursor: default;
+}
+
+.blockHealth p:hover
+{
+    transform: scale(1.03);
+    background-color: #fabd6e;
+    color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.gallery-item img {
+    width: 50%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
